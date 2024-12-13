@@ -5,7 +5,6 @@ import baseEnvUrl from './utils/environmentBaseUrl';
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
-require('dotenv').config();
 
 /**
  * See https://playwright.dev/docs/test-configuration.
@@ -76,7 +75,7 @@ export default defineConfig({
         // viewport: { width: 1280, height: 720 },
       },
     },
-
+/*
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
@@ -110,7 +109,7 @@ export default defineConfig({
          ...devices['Desktop Firefox']
       },
     },
-
+*/
     // Example only
     {
       name: 'local',
